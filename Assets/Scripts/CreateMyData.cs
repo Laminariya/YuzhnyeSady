@@ -119,10 +119,13 @@ public class MyFlat
     public string PathFlat;
     public Sprite FlatSprite;
     public Sprite FloorSprite;
+    public int SendKorpus;
 
     public MyFlat(Flat flat, Floor floor, string korpus)
     {
         Korpus = korpus;
+        string[] split = korpus.Split(".");
+        SendKorpus = int.Parse(split[0]);
         string[] split1 = flat.article.Split("-");
         Number = int.Parse(split1[2]);
         Floor = floor.number;

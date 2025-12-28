@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public CreateMyData createMyData;
     [HideInInspector] public CreateImagePNG createImagePng;
     
+    [HideInInspector] public string SymvolQuadro = "<sup>2</sup>";
+    [HideInInspector] public string SymvolRuble = "\u20BD";
     
     [HideInInspector] public MyData MyData;
     

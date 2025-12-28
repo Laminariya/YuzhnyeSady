@@ -46,12 +46,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GalereyaPanel.cs" />
+    <Compile Include="Assets\Scripts\ChoseFlatOnParameterPanel.cs" />
     <Compile Include="Assets\Scripts\SerializeJson.cs" />
+    <Compile Include="Assets\Scripts\DubleSlider\DubleSlider.cs" />
     <Compile Include="Assets\Scripts\VideoPanel.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GenplanPanel.cs" />
     <Compile Include="Assets\Scripts\CreateImagePNG.cs" />
     <Compile Include="Assets\Scripts\SendComPort.cs" />
+    <Compile Include="Assets\Scripts\FlatPrefab.cs" />
     <Compile Include="Assets\Scripts\CreateMyData.cs" />
     <Compile Include="Assets\Scripts\StartPanel.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
